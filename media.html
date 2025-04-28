@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achioyamen Emmanuel - Media Showcase</title>
+</head>
+
+
+<body>
+    <h1>My Multimedia Profile</h1>
+
+<!-- Picture Element with Multiple Sources -->
+
+<picture>
+    <source media="(min-width: 1200px)" srcset="./assets/image/laptop.jpeg">
+    <source media="(min-width: 768px)" srcset="tablet-image.jpg">
+    <source media="(max-width: 480px)" srcset="mobile-image.jpg">
+    <img src="default-image.jpg" alt="Achioyamen Emmanuel Profile" width="500">
+</picture>
+
+
+<!-- Audio Element -->
+
+<h2>My Introduction</h2>
+
+<audio controls>
+    <source src="introduction.mp3" type="audio/mpeg">
+</audio>
+<p></p>
+
+
+<!-- Video Element -->
+
+<h2>My Tech Journey</h2>
+
+<video width="500" controls>
+    <source src="tech-journey.mp4" type="video/mp4">
+</video>
+
+<p>
+    <a href="index.html">Back to Profile</a> | 
+    <a href="table.html">View Courses</a>
+</p>
+</body>
+</html>
+
